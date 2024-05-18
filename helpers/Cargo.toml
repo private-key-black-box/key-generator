@@ -1,0 +1,22 @@
+[package]
+name = "helpers"
+version = "0.1.0"
+edition = "2021"
+
+# [lib]
+# proc-macro = true
+
+
+[dependencies]
+cocoon = "0.4.1"
+rand = { version = "0.8.5", features = ["std"] }
+secp256k1 = { version = "0.29.0", features = ["rand"] }
+# proc-macro2 = "1.0"
+# syn = { version = "1.0", features = ["full"] }
+thiserror = "1.0.61"
+# alloy = { git = "https://github.com/alloy-rs/alloy", rev = "e22d9be", features = [
+#       "signers",
+#     "signer-keystore",
+#     "signer-mnemonic",
+#     "signer-wallet",
+# ] }

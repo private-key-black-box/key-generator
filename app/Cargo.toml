@@ -1,0 +1,13 @@
+[package]
+name = "key-generator"
+version = "0.1.0"
+edition = "2021"
+build = "build.rs"
+
+[dependencies]
+tokio = { version = "1.37.0", features = ["full"] }
+zeroize = "1.7.0"
+helpers = { path = "../helpers" }
+
+[build-dependencies]
+rand = "0.8.5"
